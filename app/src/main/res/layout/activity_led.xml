@@ -17,7 +17,7 @@
             android:textSize="32sp" />
 
         <Spinner
-            android:id="@+id/spinner3"
+            android:id="@+id/gpio_group_select_spinner"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
@@ -41,6 +41,7 @@
             android:rowCount="6">
 
             <Switch
+                android:id="@+id/gpio_0_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -51,6 +52,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_1_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -61,6 +63,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_2_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -71,6 +74,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_3_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -81,6 +85,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_4_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -91,6 +96,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_5_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -101,6 +107,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_6_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -111,6 +118,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_7_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -121,6 +129,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_8_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -131,6 +140,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_9_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -141,6 +151,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_10_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -151,6 +162,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_11_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -161,6 +173,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_12_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -171,6 +184,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_13_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -181,6 +195,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_14_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -191,6 +206,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_15_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -201,6 +217,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_16_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -211,6 +228,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_17_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -221,6 +239,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_18_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -231,6 +250,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_19_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -241,6 +261,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_20_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -251,6 +272,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_21_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -261,6 +283,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_22_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -271,6 +294,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_23_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -281,6 +305,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_24_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -291,6 +316,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_25_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -301,6 +327,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_26_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -311,6 +338,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_27_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -321,6 +349,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_28_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -331,6 +360,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_29_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -341,6 +371,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_30_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
@@ -351,6 +382,7 @@
                 android:textSize="24sp" />
 
             <Switch
+                android:id="@+id/gpio_31_switch"
                 android:layout_height="75dp"
                 android:layout_columnWeight="1"
                 android:layout_gravity="center_horizontal"
