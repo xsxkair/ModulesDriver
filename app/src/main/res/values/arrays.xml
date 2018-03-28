@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gpio_group_array_items">
+        <item>GPIOA</item>
+        <item>GPIOB</item>
+        <item>GPIOC</item>
+        <item>GPIOD</item>
+        <item>GPIOE</item>
+    </string-array>
+
+    <string-array name="gpio_array_items">
+        <item>GPIO0</item>
+        <item>GPIO1</item>
+        <item>GPIOC</item>
+        <item>GPIOD</item>
+        <item>GPIOE</item>
+    </string-array>
+</resources>

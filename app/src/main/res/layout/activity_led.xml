@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_gpio_group_text"
+            android:textSize="32sp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:entries="@array/gpio_group_array_items" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:columnCount="6"
+            android:orientation="horizontal"
+            android:rowCount="6">
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio0_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio1_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio2_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio3_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio4_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio5_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio6_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio7_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio8_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio9_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio10_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio11_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio12_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio13_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio14_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio15_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio16_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio17_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio18_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio19_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio20_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio21_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio22_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio23_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio24_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio25_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio26_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio27_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio28_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio29_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio30_text"
+                android:textSize="24sp" />
+
+            <Switch
+                android:layout_height="75dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:checked="false"
+                android:switchPadding="5dp"
+                android:text="@string/gpio31_text"
+                android:textSize="24sp" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

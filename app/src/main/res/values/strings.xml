@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ModulesDriver</string>
+
+    <!--
+        main activity list item
+    -->
+    <string name="list_led_item">led测试</string>
+    <string name="list_serial_item">串口测试</string>
+    <string name="list_iic_item">IIC测试</string>
+    <string name="list_ad_item">AD测试</string>
+
+    <!--
+        led activity
+    -->
+    <string name="select_gpio_group_text">请选择GPIO组：</string>
+    <string name="title_activity_led">activity_led</string>
+    <string name="gpio0_text">GPIO 0</string>
+    <string name="gpio1_text">GPIO 1</string>
+    <string name="gpio2_text">GPIO 2</string>
+    <string name="gpio3_text">GPIO 3</string>
+    <string name="gpio4_text">GPIO 4</string>
+    <string name="gpio5_text">GPIO 5</string>
+    <string name="gpio6_text">GPIO 6</string>
+    <string name="gpio7_text">GPIO 7</string>
+    <string name="gpio8_text">GPIO 8</string>
+    <string name="gpio9_text">GPIO 9</string>
+    <string name="gpio10_text">GPIO 10</string>
+    <string name="gpio11_text">GPIO 11</string>
+    <string name="gpio12_text">GPIO 12</string>
+    <string name="gpio13_text">GPIO 13</string>
+    <string name="gpio14_text">GPIO 14</string>
+    <string name="gpio15_text">GPIO 15</string>
+    <string name="gpio16_text">GPIO 16</string>
+    <string name="gpio17_text">GPIO 17</string>
+    <string name="gpio18_text">GPIO 18</string>
+    <string name="gpio19_text">GPIO 19</string>
+    <string name="gpio20_text">GPIO 20</string>
+    <string name="gpio21_text">GPIO 21</string>
+    <string name="gpio22_text">GPIO 22</string>
+    <string name="gpio23_text">GPIO 23</string>
+    <string name="gpio24_text">GPIO 24</string>
+    <string name="gpio25_text">GPIO 25</string>
+    <string name="gpio26_text">GPIO 26</string>
+    <string name="gpio27_text">GPIO 27</string>
+    <string name="gpio28_text">GPIO 28</string>
+    <string name="gpio29_text">GPIO 29</string>
+    <string name="gpio30_text">GPIO 30</string>
+    <string name="gpio31_text">GPIO 31</string>
+
+
+
+</resources>

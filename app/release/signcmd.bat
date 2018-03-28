@@ -1,0 +1,1 @@
+java -jar E:\AndroidWork\MyAndroidKey\FriendlyARM-S5P6818\android-platform-key-files\signapk.jar E:\AndroidWork\MyAndroidKey\FriendlyARM-S5P6818\android-platform-key-files\platform.x509.pem E:\AndroidWork\MyAndroidKey\FriendlyARM-S5P6818\android-platform-key-files\platform.pk8 app-release.apk signed_xsx.apk
