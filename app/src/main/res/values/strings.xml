@@ -4,10 +4,13 @@
     <!--
         main activity list item
     -->
-    <string name="list_led_item">led测试</string>
+    <string name="list_gpio_item">GPIO测试</string>
     <string name="list_serial_item">串口测试</string>
     <string name="list_iic_item">IIC测试</string>
     <string name="list_ad_item">AD测试</string>
+    <string name="list_disk_item">U盘测试</string>
+    <string name="list_database_item">数据库测试</string>
+    <string name="list_ethernet_item">Eth0设置</string>
 
     <!--
         led activity
@@ -47,6 +50,47 @@
     <string name="gpio30_text">GPIO 30</string>
     <string name="gpio31_text">GPIO 31</string>
 
+    <!--
+            serial activity
+    -->
+    <string name="select_serial_text">选择串口：</string>
+    <string name="select_serial_baud_text">选择波特率：</string>
+    <string name="open_serial_button_text">打开串口</string>
+    <string name="close_serial_button_text">关闭串口</string>
+    <string name="serial_send_button_text">发送</string>
+    <string name="serial_clear_button_text">清空</string>
 
+    <!--
+            data base test activity
+    -->
+    <string name="table_id_text">编号</string>
+    <string name="table_name_text">姓名</string>
+    <string name="table_age_text">年龄</string>
+    <string name="table_sex_text">性别</string>
+    <string name="table_phone_text">电话</string>
 
+    <string name="table_insert_text">插入</string>
+    <string name="table_delete_text">删除</string>
+    <string name="table_fresh_text">刷新</string>
+
+    <!--
+        data base define
+    -->
+    
+    <!-- eth config -->
+    <string name="eth_config">有线网设置</string>
+    <string name="eth_con_type">连接方式</string>
+    <string name="eth_con_type_dhcp">DHCP</string>
+    <string name="eth_con_type_manual">Static IP</string>
+    <string name="eth_mask">Mask address</string>
+    <string name="eth_dns">DNS address</string>
+    <string name="eth_gw">Gateway address</string>
+    <string name="eth_ipaddr">IP address</string>
+    <string name="eth_cancel">返回</string>
+    <string name="eth_save">保存</string>
+    <bool name="eth_def_connect_type">true</bool>
+    <string name="eth_def_ip"></string>
+    <string name="eth_def_dns"></string>
+    <string name="eth_def_gateway"></string>
+    <string name="eth_def_mask"></string>
 </resources>

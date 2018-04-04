@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.modulesdriver.SerialTestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_serial_text"
+                    android:textSize="24sp"/>
+
+                <Spinner
+                    android:id="@+id/select_serial_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:entries="@array/serial_array_items"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_serial_baud_text"
+                    android:textSize="24sp"/>
+
+                <Spinner
+                    android:id="@+id/select_serial_baud_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:entries="@array/serial_baud_array_items"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/open_serial_button"
+                android:text="@string/open_serial_button_text"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_rowWeight="1"
+                android:onClick="openSerial"/>
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:scrollbars="vertical"
+                android:fadingEdge="vertical"
+                android:layout_weight="3">
+                <TextView
+                    android:id="@+id/serial_recv_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:minLines="12"/>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/serial_clear_button"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/serial_clear_button_text"
+                android:onClick="clearRecvMsg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/serial_send_edittext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:minLines="6"
+                android:layout_weight="3"/>
+
+            <Button
+                android:id="@+id/serial_send_button"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/serial_send_button_text"
+                android:onClick="sendMsg"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--
+        main activity
+    -->
+    <string-array name="test_item_array">
+        <item>@string/list_gpio_item</item>
+        <item>@string/list_serial_item</item>
+        <item>@string/list_iic_item</item>
+        <item>@string/list_ad_item</item>
+        <item>@string/list_disk_item</item>
+        <item>@string/list_database_item</item>
+        <item>@string/list_ethernet_item</item>
+    </string-array>
+
+    <!--
+        led activity
+    -->
     <string-array name="gpio_group_array_items">
         <item>GPIOA</item>
         <item>GPIOB</item>
@@ -8,11 +25,21 @@
         <item>GPIOE</item>
     </string-array>
 
-    <string-array name="gpio_array_items">
-        <item>GPIO0</item>
-        <item>GPIO1</item>
-        <item>GPIOC</item>
-        <item>GPIOD</item>
-        <item>GPIOE</item>
+    <!--
+        serial activity
+    -->
+    <string-array name="serial_array_items">
+        <item>/dev/ttySAC0</item>
+        <item>/dev/ttySAC2</item>
+        <item>/dev/ttySAC3</item>
+        <item>/dev/ttySAC4</item>
     </string-array>
+
+    <string-array name="serial_baud_array_items">
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>115200</item>
+    </string-array>
+
 </resources>

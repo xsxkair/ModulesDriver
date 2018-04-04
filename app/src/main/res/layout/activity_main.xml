@@ -4,57 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     tools:context="com.example.administrator.modulesdriver.MainActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
+        <ListView
+            android:id="@+id/test_item_listview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_height="match_parent"
+            android:entries="@array/test_item_array"/>
 
-            <TextView
-                android:id="@+id/ledTest_Item"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingBottom="5px"
-                android:paddingTop="5px"
-                android:text="@string/list_led_item"
-                android:textSize="20pt" />
-
-            <TextView
-                android:id="@+id/serialTest_Item"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingBottom="5px"
-                android:paddingTop="5px"
-                android:text="@string/list_serial_item"
-                android:textSize="20pt" />
-
-            <TextView
-                android:id="@+id/IICTest_Item"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingBottom="5px"
-                android:paddingTop="5px"
-                android:text="@string/list_iic_item"
-                android:textSize="20pt" />
-
-            <TextView
-                android:id="@+id/ADTest_Item"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingBottom="5px"
-                android:paddingTop="5px"
-                android:text="@string/list_ad_item"
-                android:textSize="20pt" />
-
-        </LinearLayout>
-    </ScrollView>
 </android.support.constraint.ConstraintLayout>
